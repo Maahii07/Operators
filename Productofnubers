@@ -1,0 +1,17 @@
+#C++ program to find the product of two numbers entered by user.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+double n1 ,n2 ,product;
+
+cout << "Enter two numbers";
+
+cin >> n1 >> n2 ;
+
+product = n1 * n2 ;
+
+cout << "Product is " << product ;
+return 0;
+} 
